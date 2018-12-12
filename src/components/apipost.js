@@ -20,7 +20,7 @@ handleSubmit(event) {
     event.preventDefault();
     let title = this.state.title;
     let rating = this.state.rating;
-    fetch("http://127.0.0.1:5000/movies/input", {
+    fetch("https://wj-python-back-end.herokuapp.com/", {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
