@@ -10,7 +10,7 @@ export default class Apifetch extends Component {
     }
 
     componentWillMount() {
-        fetch("https://wj-python-back-end.herokuapp.com/", {
+        fetch("https://wj-python-movie-ratings.herokuapp.com/", {
             method: "GET",
             headers: {
                 "accept": "application/json",
